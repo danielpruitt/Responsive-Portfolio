@@ -1,0 +1,224 @@
+.bar {
+    background:#ffffff;
+    height:100px;
+    width:100%;
+    box-shadow: 1px 2px 5px grey;
+    
+}
+.head{
+    background: #4aaaa5;
+    height:80px;
+    width:250px;
+    text-align:center;
+    padding:10px;
+    font-family:'Georgia',Times Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    float:left;
+    margin-top:0px;
+    margin-left:170px
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Georgia',Times Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    padding-top: 1px
+}
+ul.hover li a:hover {
+    color:#4aaaa5;
+    text-decoration: underline;
+}
+a {
+    color:#626069
+}
+ 
+
+li  {
+    float:right;
+    display:inline;
+    text-align:center;
+    list-style-type:none;
+    margin:20px;
+    padding:10px;
+    padding-left:50px;
+    font-family:'Arial','Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size:large;
+    color:#626069
+}
+
+
+/* body image and content*/
+.body {
+   
+    background:url(assets/escheresque.png);
+}
+.aboutme{
+    color: #4aaaa5;
+    font-family:'Arial','Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding-left:55px;
+    text-align: left
+    
+}
+
+.line{
+    background:#929292;
+    color:#929292;
+    width:100%;
+    height:1px;
+    margin:auto;
+    margin-top:3px;
+
+}
+
+.headshot{
+    width:25%;
+    height:25%;
+    top:1px;
+    position:relative;
+    float:left;
+    padding-left:10px
+}
+
+.content {
+    background: #ffffff;
+    height:960px;
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #929292;
+    color:#929292;
+}
+
+p{
+    position:relative;
+    height:200px;
+    width:700px;
+    float:left;
+    margin-left:10px;
+    margin-top:-15px;
+    font-family:'Arial','Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%; 
+    height:20px;
+    text-align:center;
+  
+}
+
+.copyright{
+    text-align:center;
+    color:#ffffff;
+
+}
+
+
+/*form fields for contact page */
+.formspace {
+    
+    margin:auto;
+    padding:60px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width:100%;
+    background-color: #4aaaa5;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#1eb1a9;
+}
+
+/* images for Portfolio page */
+.imgsize{
+    height:210px;
+    width:295px;
+    
+    
+}
+
+.container {
+    height:260px;
+    width:295px;
+    float:left;
+    padding: 0 auto;
+    margin: 15px;
+    float:left;
+    
+}
+
+.band {
+    background-color: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    height:25px;
+    width:295px;
+    margin: 0 auto;
+    margin-top:-60px;
+    padding-top:7px
+
+    
+}
+
+/* Media screen tags */
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+    .header, .navbar, .head{
+        float:left;
+        width:auto;
+        align-content: left
+
+    }
+     body{
+        width:100%;
+        height:100%;
+        float:left;
+    }
+    .column, .content{
+        width:100%;
+        float:left;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .header, .navbar, .head{
+        float:center;
+        width:auto;
+    
+
+    }
+     .navbar, body{
+        width:100%;
+        height:100%;
+        float:right;
+    }
+    .column, .content{
+        width:100%;
+        margin:auto;
+    }
+    
+}
