@@ -46,7 +46,8 @@
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
 }
 .navbar {
     float:right;
@@ -69,7 +70,7 @@ li  {
     margin:20px;
     padding:20px;
     padding-left:50px;
-    font-family:'Arial','Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size:large;
     color:#626069
 }
@@ -79,7 +80,8 @@ body{
 }
 h2 {
     color:#4aaaa5;
-    margin-left:50px
+    margin-left:50px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .content {
@@ -116,22 +118,17 @@ h2 {
     font-family:'Arial','Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-.footer {
+/* .footer {
     background: #4aaaa5;
     color: #ffffff;
     position: fixed;
     bottom: 0px;
-    width: 100%; 
+    width: 120%; 
     height:20px;
     text-align:center;
+    z-index:1;
   
-}
-
-.copyright{
-    text-align:center;
-    color:#ffffff;
-
-}
+} */
 
 
 /* form fields*/
@@ -199,7 +196,20 @@ input[type=submit]:hover {
     
 }
 
-
+/* footer at the bottom */
+.footer {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    width: 120%; 
+    height:20px;
+    text-align:center;
+    z-index:1;
+  
+}
 
 
 /* media query */
