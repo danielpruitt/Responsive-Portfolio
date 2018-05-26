@@ -169,9 +169,24 @@ input[type=submit]:hover {
 
 
 /* images for Portfolio page */
+.band {
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    height:25px;
+    width:295px;
+    margin: 0 auto;
+    margin-top:-60px;
+    padding-top:7px;
+    z-index: 1;
+    position:absolute;
+}
+
 .imgsize{
     height:270px;
     width:295px;
+    /* opacity: .2; */
+
 }
 
 .container {
@@ -184,16 +199,7 @@ input[type=submit]:hover {
     
 }
 
-.band {
-    background-color: #4aaaa5;
-    text-align: center;
-    color:#ffffff;
-    height:25px;
-    width:295px;
-    margin: 0 auto;
-    margin-top:-60px;
-    padding-top:7px
-}
+
 
 
 /* media query */
@@ -237,38 +243,40 @@ input[type=submit]:hover {
         flex-direction:column;
       
     }
+   
 }
 
 @media screen and (max-width: 768px){
-    .headcontainer{
+    .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
-        flex-direction: column;
-        text-align: center
+        text-align: center;
     }
-    h1 {
-        text-align: center
+
+    
+    .navbar{
+        /* width:80%; */
+        float:right;
+        background:#ffffff;
+        margin:40px 28px;
     }
     ul { 
         float:left;
         text-align: center;
-        display: inline
     }
-    .navbar{
-        width:auto;
-
-    }
-    .navbar{
-        width:100%;
-        float:left;
-        background:#ffffff
-    }
+  
     li { 
         float:left;
-        margin: 5px;
-        padding: 10px;
+        margin: 3px;
+        padding: 10px;    
         font-size:20px;
+        
     }
+
+    .content {
+        margin:0px 5px 0px 20px;
+        height:1700px
+   }
 
     body{
         width:auto;
@@ -277,9 +285,7 @@ input[type=submit]:hover {
     }
     .content{
         width:auto;
-        margin-left:auto
-    
-       
+        margin-left: auto;
     }
    
     
@@ -292,10 +298,11 @@ input[type=submit]:hover {
         text-align: center;
         color:#ffffff;
         height:25px;
-        width:auto;
+        width:295px;
         margin: 0 auto;
         margin-top:-60px;
-        padding-top:7px
+        padding-top:7px;
+        position: absolute;
     
     }
 }
@@ -304,7 +311,11 @@ input[type=submit]:hover {
     .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
+        text-align: center
     
+    }
+    .bckgrnd {
+        margin:0px 80px 0px 80px;
     }
 
     li {
@@ -314,8 +325,16 @@ input[type=submit]:hover {
         font-size:15px;
     }
     .navbar{
-        width:100%;
-        float:left;
+        width:80%;
+        float:right;
+        background:#ffffff;
+        margin: 20px 55px 0px 35px
+    
+    }
+    .content {
+        margin:0px 5px 0px 20px;
+        height:1700px
+    
     }
    body{
        width:auto;
@@ -323,12 +342,7 @@ input[type=submit]:hover {
        flex-direction: column
    }
     
-    .content{
-        width:auto;
-       margin:auto
-    
-       
-    }
+
     .paragraph {
         width:auto;
         flex-direction:column;
@@ -340,10 +354,10 @@ input[type=submit]:hover {
         text-align: center;
         color:#ffffff;
         height:25px;
-        width:auto;
+        width:295px;
         margin: 0 auto;
         margin-top:-60px;
-        padding-top:7px
-    
+        padding-top:7px;
+        
     }
 }
