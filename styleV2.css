@@ -315,7 +315,7 @@ input[type=submit]:hover {
     
     }
     .bckgrnd {
-        margin:0px 80px 0px 80px;
+        margin:5px 80px 0px 80px;
     }
 
     li {
@@ -359,5 +359,9 @@ input[type=submit]:hover {
         margin-top:-60px;
         padding-top:7px;
         
+    }
+
+    .footer{
+        width:100%;
     }
 }
