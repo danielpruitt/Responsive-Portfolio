@@ -118,19 +118,6 @@ h2 {
     font-family:'Arial','Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-/* .footer {
-    background: #4aaaa5;
-    color: #ffffff;
-    position: fixed;
-    bottom: 0px;
-    width: 120%; 
-    height:20px;
-    text-align:center;
-    z-index:1;
-  
-} */
-
-
 /* form fields*/
 
 .formspace {
@@ -260,12 +247,41 @@ input[type=submit]:hover {
     .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
+        margin-left:15px;
         text-align: center;
+        align-content: center;
+        -webkit-animation-name: change;
+        -webkit-animation-duration:2s;
+        animation-name:change;
+        animation-duration:2s;
     }
 
+    @-webkit-keyframes change {
+        from {background: #626262;}
+        to {background: #4aaaa5;}
+    }
+    @keyframes change {
+        from {background: #626262;}
+        to {background:#4aaaa5;}
+    }
+    
+    .bckgrnd {
+        -webkit-animation-name: namechange;
+        -webkit-animation-duration:2s;
+        animation-name:namechange;
+        animation-duration:2s;
+    }
+    @-webkit-keyframes namechange {
+        from {background: #626262;}
+        to {background:#4aaaa5;}
+    }
+    @keyframes namechange {
+        from {background: #626262;}
+        to {background:#4aaaa5;}
+    }
     
     .navbar{
-        /* width:80%; */
+        width:auto;
         float:right;
         background:#ffffff;
         margin:40px 28px;
@@ -282,97 +298,82 @@ input[type=submit]:hover {
         font-size:20px;
         
     }
-
-    .content {
-        margin:0px 5px 0px 20px;
-        height:1700px
-   }
-
-    body{
-        width:auto;
-        height:100%;
-        flex-direction: column;
-    }
+    
     .content{
         width:auto;
         margin-left: auto;
     }
    
-    
-    .paragraph {
-        width:auto;
-    
+    .container {
+        margin-left:50px
     }
-    .band {
-        background-color: #4aaaa5;
-        text-align: center;
-        color:#ffffff;
-        height:25px;
-        width:295px;
-        margin: 0 auto;
-        margin-top:-60px;
-        padding-top:7px;
-        position: absolute;
+
     
-    }
 }
 
 @media screen and (max-width: 640px){
     .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
-        text-align: center
-    
+        margin-left:10px;
+        text-align: center;
+        align-content: center;
+        -webkit-animation-name: change;
+        -webkit-animation-duration:2s;
+        animation-name:change;
+        animation-duration:2s;
     }
+
+    @-webkit-keyframes change {
+        from {background: #626262;}
+        to {background: #4aaaa5;}
+    }
+    @keyframes change {
+        from {background: #626262;}
+        to {background:#4aaaa5;}
+    }
+    
     .bckgrnd {
         margin:0px 80px 0px 80px;
+        -webkit-animation-name: namechange;
+        -webkit-animation-duration:2s;
+        animation-name:namechange;
+        animation-duration:2s;
     }
+    @-webkit-keyframes namechange {
+        from {background: #626262;}
+        to {background:#4aaaa5;}
+    }
+    @keyframes namechange {
+        from {background: #626262;}
+        to {background:#4aaaa5;}
+    }
+    
 
     li {
         float:left;
         margin: 5px;
-        padding: 10px;
+        padding: 8px;
         font-size:15px;
     }
     .navbar{
-        width:80%;
+        width:auto;
         float:right;
         background:#ffffff;
         margin: 25px 55px 0px 35px
     
     }
+
     .content {
         margin:0px 5px 0px 20px;
-        height:1700px
     
     }
-   body{
-       width:auto;
-       height:100%;
-       flex-direction: column
-   }
-    
-
+    .mqcontent {
+        height:1700px
+    }
     .paragraph {
         width:auto;
-        flex-direction:column;
-      
+
     }
 
-    .band {
-        background-color: #4aaaa5;
-        text-align: center;
-        color:#ffffff;
-        height:25px;
-        width:295px;
-        margin: 0 auto;
-        margin-top:-60px;
-        padding-top:7px;
-        
-    }
-
-    .footer{
-        width:100%;
-        float:left;
-    }
 }
