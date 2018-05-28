@@ -373,11 +373,11 @@ input[type=submit]:hover {
     }
     
     .container {
-        margin:inherit;
-        float:left
+        margin:0 20px 0 25px;
+
     }
     .mqcontent {
-        height:1700px
+        height:1500px
     }
     .paragraph {
         width:70%
