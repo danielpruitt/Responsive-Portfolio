@@ -249,7 +249,7 @@ input[type=submit]:hover {
     .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
-        margin-left:15px;
+        margin-left:1px;
         text-align: center;
         font-weight: bold;
         padding-left:10px;
@@ -290,15 +290,12 @@ input[type=submit]:hover {
         background:#ffffff;
         margin:40px 28px;
     }
-    ul { 
-        float:left;
-        text-align: center;
-    }
+   
   
     li { 
         float:left;
-        margin: 3px;
-        padding: 10px;    
+        margin: 1px;
+        padding-bottom: 5px;    
         font-size:20px;
         
     }
@@ -307,9 +304,14 @@ input[type=submit]:hover {
         width:auto;
         margin-left: auto;
     }
-   
+   .paragraph {
+       width:70%
+   }
     .container {
-        margin-left:50px
+        margin-left:20px
+    }
+    .mqcontent {
+        height:1100px
     }
 
     
@@ -319,11 +321,7 @@ input[type=submit]:hover {
     .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
-        margin-left:0px;
-        font-weight: bold;
-        text-align: center;
-        /* padding-left:10px; */
-        align-content: center;
+        margin:auto;
         -webkit-animation-name: change;
         -webkit-animation-duration:2s;
         animation-name:change;
@@ -373,17 +371,16 @@ input[type=submit]:hover {
     .content {
         margin:0px 5px 0px 5px;
     }
-
+    
     .container {
-        padding-left: 25px;
+        margin:inherit;
+        float:left
     }
     .mqcontent {
         height:1700px
     }
     .paragraph {
-        width:auto;
-        float:left;
-
+        width:70%
     }
 
 
