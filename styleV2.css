@@ -77,7 +77,8 @@ li  {
 }
 
 body{
-    background: url(assets/escheresque.png)
+    background: url(assets/escheresque.png);
+
 }
 h2 {
     color:#4aaaa5;
@@ -87,8 +88,17 @@ h2 {
 
 .content {
     background: #ffffff;
-    height:960px;
     width:960px;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #929292;
+    color:#929292;
+}
+.mqcontent {
+    background: #ffffff;
+    width:960px;
+    height:960px;
     margin-left: auto;
     margin-right: auto;
     border:1px solid #929292;
@@ -170,7 +180,6 @@ input[type=submit]:hover {
 .imgsize{
     height:270px;
     width:295px;
-    /* opacity: .2; */
 
 }
 
@@ -250,6 +259,7 @@ input[type=submit]:hover {
         width:auto;
         background:#4aaaa5;
         margin-left:1px;
+        margin-top:25px;
         text-align: center;
         font-weight: bold;
         padding-left:10px;
@@ -287,13 +297,16 @@ input[type=submit]:hover {
     .navbar{
         width:auto;
         float:right;
-        background:#ffffff;
-        margin:40px 28px;
+        background:#4aaaa5;
+        margin-bottom:70px;
+        -webkit-animation-name: change;
+        -webkit-animation-duration:2s;
+        animation-name:change;
+        animation-duration:2s;
     }
    
   
     li { 
-        /* float:left; */
         margin: 1px;
         padding-bottom: 5px;    
         font-size:20px;
@@ -302,6 +315,7 @@ input[type=submit]:hover {
     
     .content{
         width:auto;
+        height:1000px;
         margin-left: auto;
     }
    .paragraph {
@@ -311,6 +325,7 @@ input[type=submit]:hover {
         margin-left:20px
     }
     .mqcontent {
+        width:auto;
         height:1100px
     }
 
@@ -334,7 +349,7 @@ input[type=submit]:hover {
     }
     @keyframes change {
         from {background: #626262;}
-        to {background:#4aaaa5;}
+        to {background: #4aaaa5;;}
     }
     
     .bckgrnd {
@@ -346,7 +361,7 @@ input[type=submit]:hover {
     }
     @-webkit-keyframes namechange {
         from {background: #626262;}
-        to {background:#4aaaa5;}
+        to {background: #ffffff;;}
     }
     @keyframes namechange {
         from {background: #626262;}
@@ -355,17 +370,19 @@ input[type=submit]:hover {
     
 
     li {
-        /* float:left; */
         margin: 5px;
-        padding: 8px;
+        margin-left:10px;
+        padding-left: 10px;
+        padding-right:10px;
         font-size:15px;
     }
     .navbar{
         width:90%;
         background:#ffffff;
-        margin: 25px 20px 10px 10px;
-    
-    
+        padding-left:10px;
+        padding-right:10px;
+        margin: 25px 20px 10px 20px;
+     
     }
 
     .content {
