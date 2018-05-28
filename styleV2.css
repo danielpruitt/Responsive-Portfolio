@@ -293,7 +293,7 @@ input[type=submit]:hover {
    
   
     li { 
-        float:left;
+        /* float:left; */
         margin: 1px;
         padding-bottom: 5px;    
         font-size:20px;
@@ -355,29 +355,29 @@ input[type=submit]:hover {
     
 
     li {
-        float:left;
+        /* float:left; */
         margin: 5px;
         padding: 8px;
         font-size:15px;
     }
     .navbar{
-        width:auto;
-        float:left;
+        width:90%;
         background:#ffffff;
-        margin: 25px 55px 0px 35px
+        margin: 25px 20px 10px 10px;
+    
     
     }
 
     .content {
-        margin:0px 5px 0px 5px;
+        margin:0px 5px 5px 5px;
     }
     
     .container {
-        margin:0 20px 0 25px;
+        margin:10px 20px 10px 35px;
 
     }
     .mqcontent {
-        height:1500px
+        height:1600px
     }
     .paragraph {
         width:70%
