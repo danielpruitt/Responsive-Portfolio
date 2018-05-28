@@ -315,7 +315,7 @@ input[type=submit]:hover {
     .headcontainer, h1{
         width:auto;
         background:#4aaaa5;
-        margin-left:10px;
+        margin-left:0px;
         text-align: center;
         align-content: center;
         -webkit-animation-name: change;
@@ -334,7 +334,7 @@ input[type=submit]:hover {
     }
     
     .bckgrnd {
-        margin:0px 80px 0px 80px;
+        margin:0px 80px 0px 100px;
         -webkit-animation-name: namechange;
         -webkit-animation-duration:2s;
         animation-name:namechange;
@@ -358,14 +358,15 @@ input[type=submit]:hover {
     }
     .navbar{
         width:auto;
-        float:right;
+        float:left;
         background:#ffffff;
         margin: 25px 55px 0px 35px
     
     }
 
     .content {
-        margin:0px 5px 0px 20px;
+        margin:0px 5px 0px 5px;
+        
     
     }
     .mqcontent {
@@ -373,6 +374,7 @@ input[type=submit]:hover {
     }
     .paragraph {
         width:auto;
+        float:left;
 
     }
 
