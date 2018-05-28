@@ -322,7 +322,7 @@ input[type=submit]:hover {
         margin-left:0px;
         font-weight: bold;
         text-align: center;
-        padding-left:10px;
+        /* padding-left:10px; */
         align-content: center;
         -webkit-animation-name: change;
         -webkit-animation-duration:2s;
